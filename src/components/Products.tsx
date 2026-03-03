@@ -4,8 +4,12 @@ import { Button } from "@/components/ui/button";
 
 import productGariBlanc from "@/assets/product-gari-blanc.jpg";
 import productGariJaune from "@/assets/product-gari-jaune.jpg";
+import productDakouin from "@/assets/product-dakouin.jpg";
 import productAttieke from "@/assets/product-attieke.jpg";
 import productTapioca from "@/assets/product-tapioca.jpg";
+import productFarineAmidon from "@/assets/product-farine-amidon.jpg";
+import productLafun from "@/assets/product-lafun.jpg";
+import productAmidonBrut from "@/assets/product-amidon-brut.jpg";
 import productEnriched from "@/assets/product-enriched.jpg";
 
 const WHATSAPP_URL = "https://wa.me/message/XIZU6TIES5LPC1";
@@ -21,16 +25,15 @@ type Product = {
 const products: Product[] = [
   { name: "Gari Blanc", description: "Semoule de manioc torréfiée, naturelle et énergétique.", formats: ["1kg", "10kg", "50kg", "100kg"], category: "Traditionnel", image: productGariBlanc },
   { name: "Gari Jaune", description: "Enrichi à l'huile de palme. Riche en énergie et vitamine C.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productGariJaune },
-  { name: "Dakouin Instantané", description: "Gari épicé prêt en 3 minutes. Ajoutez simplement de l'eau chaude.", formats: ["1kg", "10kg"], category: "Traditionnel", image: productGariBlanc },
+  { name: "Dakouin Instantané", description: "Gari épicé prêt en 3 minutes. Ajoutez simplement de l'eau chaude.", formats: ["1kg", "10kg"], category: "Traditionnel", image: productDakouin },
   { name: "Tapioca", description: "Perles d'amidon pur. Sans gluten, idéal pour desserts et boissons.", formats: ["1kg", "10kg"], category: "Traditionnel", image: productTapioca },
   { name: "Attiéké", description: "Le vrai couscous de manioc. Texture douce, goût authentique.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productAttieke },
-  { name: "Farine d'Amidon", description: "Poudre fine pour pâtisseries et galettes croustillantes.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productGariBlanc },
+  { name: "Farine d'Amidon", description: "Poudre fine pour pâtisseries et galettes croustillantes.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productFarineAmidon },
+  { name: "Lafun", description: "Farine fermentée de manioc. Base traditionnelle pour l'amala.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productLafun },
   { name: "Gari Allaiteur Soja", description: "Enrichi en protéines végétales. Recommandé femmes allaitantes.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari Allaiteur Coco", description: "Enrichi au lait de coco. Goût doux, renforce l'immunité.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari à l'Ananas", description: "Riche en vitamine C, goût fruité. Idéal pour le goûter.", formats: ["1kg"], category: "Innovant", image: productGariJaune },
-  { name: "Jus Pressés", description: "Jus 100% naturels du manioc. Sans sucre ajouté.", formats: ["Bouteille"], category: "Innovant", image: productAttieke },
-  { name: "Galette d'Amidon", description: "Amuse-bouche croustillant, léger et naturel.", formats: ["Sachet"], category: "Innovant", image: productGariBlanc },
-  { name: "Amidon Brut", description: "Pour transformation industrielle.", formats: ["50kg", "100kg"], category: "Innovant", image: productTapioca },
+  { name: "Amidon Brut", description: "Pour transformation industrielle.", formats: ["50kg", "100kg"], category: "Innovant", image: productAmidonBrut },
 ];
 
 const filters = ["Tous", "Traditionnels", "Innovants"] as const;
