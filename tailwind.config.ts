@@ -13,6 +13,23 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+      },
+      fontSize: {
+        "hero": ["3.75rem", { lineHeight: "1.1", fontWeight: "700" }],
+        "hero-mobile": ["2.25rem", { lineHeight: "1.15", fontWeight: "700" }],
+        "section": ["2.5rem", { lineHeight: "1.2", fontWeight: "600" }],
+        "section-mobile": ["1.75rem", { lineHeight: "1.2", fontWeight: "600" }],
+        "card-title": ["1.375rem", { lineHeight: "1.3", fontWeight: "600" }],
+        "card-title-mobile": ["1.125rem", { lineHeight: "1.3", fontWeight: "600" }],
+        "counter": ["3.5rem", { lineHeight: "1", fontWeight: "700" }],
+        "counter-mobile": ["2.25rem", { lineHeight: "1", fontWeight: "700" }],
+        "caption": ["0.8125rem", { lineHeight: "1.5", fontWeight: "400" }],
+        "badge": ["0.75rem", { lineHeight: "1", fontWeight: "600" }],
+        "cta": ["0.9375rem", { lineHeight: "1", fontWeight: "600" }],
+        "nav": ["0.9375rem", { lineHeight: "1", fontWeight: "500" }],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -65,20 +82,12 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
