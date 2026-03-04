@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { MessageCircle, Facebook, Youtube } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/message/XIZU6TIES5LPC1";
 
@@ -121,14 +122,14 @@ const Contact = () => {
             <div className="pt-6 border-t border-border">
               <p className="font-medium mb-4">Suivez-nous</p>
               <div className="flex gap-4">
-                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-primary hover:underline">
-                  💬 WhatsApp
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all" aria-label="WhatsApp">
+                  <MessageCircle size={18} />
                 </a>
-                <a href="https://www.facebook.com/semantefiacre.djossou.94" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-primary hover:underline">
-                  📘 Facebook
+                <a href="https://www.facebook.com/semantefiacre.djossou.94" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all" aria-label="Facebook">
+                  <Facebook size={18} />
                 </a>
-                <a href="https://youtube.com/@beningari" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm text-primary hover:underline">
-                  ▶️ YouTube
+                <a href="https://youtube.com/@beningari" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-all" aria-label="YouTube">
+                  <Youtube size={18} />
                 </a>
               </div>
             </div>
