@@ -29,7 +29,7 @@ const products: Product[] = [
   { name: "Tapioca", description: "Perles d'amidon pur. Sans gluten, idéal pour desserts et boissons.", formats: ["1kg", "10kg"], category: "Traditionnel", image: productTapioca },
   { name: "Attiéké", description: "Le vrai couscous de manioc. Texture douce, goût authentique.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productAttieke },
   { name: "Farine d'Amidon", description: "Poudre fine pour pâtisseries et galettes croustillantes.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productFarineAmidon },
-  { name: "Lafun", description: "Farine fermentée de manioc. Base traditionnelle pour l'amala.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productLafun },
+  { name: "Lafun", description: "Farine de manioc fermentée et séchée. Idéale pour préparer l'Eba et d'autres plats traditionnels. 100% naturelle.", formats: ["1kg", "10kg", "50kg"], category: "Traditionnel", image: productLafun },
   { name: "Gari Allaiteur Soja", description: "Enrichi en protéines végétales. Recommandé femmes allaitantes.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari Allaiteur Coco", description: "Enrichi au lait de coco. Goût doux, renforce l'immunité.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari à l'Ananas", description: "Riche en vitamine C, goût fruité. Idéal pour le goûter.", formats: ["1kg"], category: "Innovant", image: productGariJaune },
