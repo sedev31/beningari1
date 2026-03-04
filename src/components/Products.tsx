@@ -33,7 +33,7 @@ const products: Product[] = [
   { name: "Gari Allaiteur Soja", description: "Enrichi en protéines végétales. Recommandé femmes allaitantes.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari Allaiteur Coco", description: "Enrichi au lait de coco. Goût doux, renforce l'immunité.", formats: ["1kg", "10kg"], category: "Innovant", image: productEnriched },
   { name: "Gari à l'Ananas", description: "Riche en vitamine C, goût fruité. Idéal pour le goûter.", formats: ["1kg"], category: "Innovant", image: productGariJaune },
-  { name: "Amidon Brut", description: "Pour transformation industrielle.", formats: ["50kg", "100kg"], category: "Innovant", image: productAmidonBrut },
+  { name: "Farine d'Amidon Brut", description: "Pour transformation industrielle.", formats: ["50kg", "100kg"], category: "Innovant", image: productAmidonBrut },
 ];
 
 const filters = ["Tous", "Traditionnels", "Innovants"] as const;
