@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
+import logoBg from "@/assets/logo-bg.jpg";
 
 const WHATSAPP_URL = "https://wa.me/message/XIZU6TIES5LPC1";
 
@@ -11,6 +12,10 @@ const marqueeItems = [
 const Hero = () => {
   return (
     <section className="relative pt-24 md:pt-32 pb-8 overflow-hidden">
+      {/* Logo background */}
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06]">
+        <img src={logoBg} alt="" className="w-[600px] md:w-[800px] object-contain" aria-hidden="true" />
+      </div>
       <div className="container-section">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <motion.div
