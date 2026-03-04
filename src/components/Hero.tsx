@@ -13,8 +13,8 @@ const Hero = () => {
   return (
     <section className="relative pt-24 md:pt-32 pb-8 overflow-hidden">
       {/* Logo background */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06]">
-        <img src={logoBg} alt="" className="w-[600px] md:w-[800px] object-contain" aria-hidden="true" />
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.12]">
+        <img src={logoBg} alt="" className="w-[700px] md:w-[900px] object-contain blur-[1px]" aria-hidden="true" />
       </div>
       <div className="container-section">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
