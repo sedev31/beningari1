@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button";
 import productGariBlanc from "@/assets/product-gari-blanc.jpg";
 import productGariJaune from "@/assets/product-gari-jaune.jpg";
 import productDakouin from "@/assets/product-dakouin.jpg";
-importer produitAttieke depuis "https://i.ibb.co/whDXwqNc/Gemini-Generated-Image.png";
+import produitAttieke from "https://i.ibb.co/whDXwqNc/Gemini-Generated-Image.png";
 import productTapioca from "@/assets/product-tapioca.jpg";
 import productFarineAmidon from "@/assets/product-farine-amidon.jpg";
 import productLafun from "@/assets/product-lafun.jpg";
 import productAmidonBrut from "@/assets/product-amidon-brut.jpg";
-importer produitEnrichi depuis "https://i.ibb.co/pvdT7k9T/3b108d53cb9d4b92a328eb79e414dd14.jpg";
+import produitEnrichi from "https://i.ibb.co/pvdT7k9T/3b108d53cb9d4b92a328eb79e414dd14.jpg";
 
 const WHATSAPP_URL = "https://wa.me/message/XIZU6TIES5LPC1";
 
